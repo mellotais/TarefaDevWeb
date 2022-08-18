@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <heard>  <!-- cabeçalho-->
+        <meta charset= "utf-8">
+        <title>Contato</title>
+    </heard>
+    <body> <!-- corpo -->
+        <h1 id="titulo" class=" titulo">Contato</h1> <!-- título da página-->
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label for="nome"> Nome:</label>
+                <input type="text" id="nome" name="nome" value=""> 
+    
+                <label for="sobrenome"> Sobrenome:</label> 
+                <input type="text" id= "sobrenome" name="sobrenome" value=""><br>
+    
+                <label for="telefone"> Fone:</label>
+                <input type="tel" id="telefone" name= "telefone" value="">
+
+                <label for ="email"> Email: </label>
+                <input type="email" id="email" name=" email" value=""><br>
+
+                <label for ="idade"> Idade: </label>
+                <input type="text" id="idade" name="idade" value="">
+
+                <label for ="data"> Data: </label>
+                <input type="date" id="data" name="data" value=""><br>
+
+                <label for ="cidade"> Cidade: </label>
+                <input type="text" id="cidade" name="cidade" value=""><br>
+
+                <label for ="redesocial"> Rede Social: </label>
+                <input type="text" id="redesocial" name="redesocial" value=""><br>
+
+                <label for ="sexo"> Sexo: </label>
+                Masculino<input type="radio" id="sexo" name= "sexo" value="">
+                Feminino<input type="radio" id="sexo" name= "sexo" value=""><br>
+
+                <label for ="parente"> É parente?: </label>
+                <input type="checkbox" id="parente" name= "parente" value=""><br>
+
+                <label for ="origem"> Origem de contato: </label>
+                Trabalho<input type="radio" id="trabalho" name= "trabalho" value="">
+                Faculdade<input type="radio" id="faculdade" name= "faculdade" value="">
+                Família<input type="radio" id="familia" name= "familia" value="">
+                Amigos<input type="radio" id="amigos" name= "amigos" value=""><br>
+
+                Foto: <input type="file" name="image" /></br>
+                <input type="submit" value="Enviar" name="envia" />
+                <input type="reset" name= "cancelar" value="cancelar"> 
+            </fieldset>
+        </form>
+    </body>
+</html>
